@@ -25,7 +25,7 @@ To make any changes to Mock DB, you should go to ```Services/#name/#name.db.json
     date: string;
     length: number;
     description: string;
-    authors: AUTHOR_MODEL;
+    authors: AUTHOR_MODEL[];
     isTopRated: boolean;
 },
 ```

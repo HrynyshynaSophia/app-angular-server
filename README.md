@@ -72,8 +72,8 @@ To make any changes to Mock DB, you should go to ```Services/#name/#name.db.json
 
 ```
 {
-    firstName: string;
-    lastName: string;
+    first: string;
+    last: string;
 }
 ```
 
@@ -139,8 +139,8 @@ This endpoint use for getting information about user for
     id: number,
     token: string,
     name: {
-        firstName: string,
-        lastName: string
+        first: string,
+        last: string
     },
     login: string,
     password: string

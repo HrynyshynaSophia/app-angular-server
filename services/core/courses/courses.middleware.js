@@ -19,7 +19,7 @@ module.exports = (server) => {
 		}
 
 		if(sort) {
-			courses.sort((a, b) => {
+			courses = [...courses].sort((a, b) => {
 				if (sort === 'date') {
 					const c = moment(b.date);
 					const d = moment(a.date);
